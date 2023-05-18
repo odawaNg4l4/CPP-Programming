@@ -42,3 +42,13 @@ int main()
     cout <<"Length of string is: " <<txt.size();
     return 0;
 }
+
+//ACCESS STRINGS
+#include<iostream>
+using namespace std;
+int main()
+{
+    string myString = "Hello";
+    cout<<  myString[3];
+    return 0;
+}
