@@ -52,3 +52,13 @@ int main()
     cout<<  myString[3];
     return 0;
 }
+
+//CHANGE STRING CHARACTERS
+#include<iostream>
+using namespace std;
+int main()
+{
+   string myString = "Hello";
+    myString[0] = 'J';
+    cout << myString;
+}
