@@ -20,3 +20,15 @@ int main()
     string text3 = text1.append(text2);
     cout << text3;
 }
+
+
+//NUMBERS AND strings
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x = 7;
+    int z = 12;
+    cout <<x+z;
+    etuen 0;
+}
