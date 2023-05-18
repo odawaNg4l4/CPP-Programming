@@ -21,7 +21,6 @@ int main()
     cout << text3;
 }
 
-
 //NUMBERS AND strings
 #include<iostream>
 using namespace std;
@@ -30,5 +29,16 @@ int main()
     int x = 7;
     int z = 12;
     cout <<x+z;
-    etuen 0;
+    return 0;
+}
+
+//STRING LENGTH
+#include<iostream>
+
+using namespace std;
+int main()
+{
+    string txt = "I LOVE TO SING";
+    cout <<"Length of string is: " <<txt.size();
+    return 0;
 }
