@@ -62,3 +62,15 @@ int main()
     myString[0] = 'J';
     cout << myString;
 }
+
+//SPECAIL CHARACTERS
+#include<iostream>
+
+using namespace std;
+int main()
+{
+    string txt = "I am the \"QUEEN\" if you may say";
+    string txt = "It\'s alright.";
+    string txt = "This \\ is backlash";
+    cout << txt;
+}
