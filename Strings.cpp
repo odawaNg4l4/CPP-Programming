@@ -86,3 +86,15 @@ int main()
     cout<< "I identify as an angel: "<< firstName;
     return 0;
 }
+
+//Statements
+#include<iostream>
+using namespace std;
+int main()
+{
+        string fullname;
+        cout << "Type your fullname";
+        getline(cin, fullname);
+        cout << "Your name is: "<<fullname;
+        return 0;
+}
