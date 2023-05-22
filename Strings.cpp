@@ -63,7 +63,7 @@ int main()
     cout << myString;
 }
 
-//SPECAIL CHARACTERS
+//SPECIAL CHARACTERS
 #include<iostream>
 
 using namespace std;
@@ -73,4 +73,16 @@ int main()
     string txt = "It\'s alright.";
     string txt = "This \\ is backlash";
     cout << txt;
+}
+
+//USER INPUT STRINGS
+#include<iostream>
+using namespace std;
+int main()
+{
+    string firstName;
+    cout<<"And you said you are?";
+    cin >> firstName;
+    cout<< "I identify as an angel";
+    return 0;
 }
