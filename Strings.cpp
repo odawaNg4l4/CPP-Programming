@@ -83,6 +83,6 @@ int main()
     string firstName;
     cout<<"And you said you are?";
     cin >> firstName;
-    cout<< "I identify as an angel";
+    cout<< "I identify as an angel: "<< firstName;
     return 0;
 }
