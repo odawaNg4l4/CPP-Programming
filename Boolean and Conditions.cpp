@@ -19,4 +19,17 @@ int main()
     cout << (x>y);
 }
 
+//OLD ENOUGH TO VOTE?
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int myAge = 56;
+    int votingAge - 18;
+    cout << myAge >= votingAge;
+    return 0;
+}
+
+
 
