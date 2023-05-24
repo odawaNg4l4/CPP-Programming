@@ -9,4 +9,14 @@ int main()
     cout << Friday;
 }
 
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int x =10;
+    int y = 4;
+    cout << (x>y);
+}
+
 
