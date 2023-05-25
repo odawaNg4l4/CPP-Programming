@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 
 int main()
@@ -47,7 +47,7 @@ int main()
     {
         cout<<"Not old enough to vote;
     }
-}*/
+}
 
 #include<iostream>
 using namespace std;
@@ -70,5 +70,14 @@ int main()
     }
 }
 
+#include<iostream>
+using namespace std;
+
+int main()
+{
+int time = 20;
+    string result = (time < 18) ? "Good day." : "Good evening.";
+    cout << result;
+}
 
 
