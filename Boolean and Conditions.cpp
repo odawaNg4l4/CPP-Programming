@@ -79,6 +79,7 @@ int main()
 {
     int age = 21;
     string result =(age>21)? "Adult" : "Child";
+    cout<<result
 }
 
 
