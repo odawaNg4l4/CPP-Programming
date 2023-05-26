@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int day = 6;
+    int day = 1;
     switch(day)
     {
     case 1:
@@ -26,5 +26,7 @@ int main()
     case 7:
         cout<< "Sunday";
         break;
+    default:
+        cout<< "THE WEEKEND!!"
     }
 }
