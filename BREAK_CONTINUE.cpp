@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 for (int i = 0; i < 10; i++) {
-  if (i == 4) {
+  if (i == 7) {
     break;
   }
   cout << i << "\n";
@@ -25,4 +25,15 @@ int main()
             break;
         }
     }
+}
+
+#include<iostream>
+using namespace std;
+int main()
+{
+   for (int i = 0; i < 10; i++)
+   if (i == 5){
+    break;
+   }
+   cout<< i <<"\n";
 }
