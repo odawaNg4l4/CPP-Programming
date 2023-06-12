@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -39,13 +39,14 @@ int main()
     {
         cout<<i<<"="<<dogs[i]<<"\n";
     }
-}*/
+}
+
 //ARRAY SIZE
 #include<iostream>
 using namespace std;
 
 int main()
 {
-    int mydogs[5] = {"bulldog", "retriever","husky","poodle", "chihuahua"};
+    string mydogs[5] = {"bulldog", "retriever","husky","poodle", "chihuahua"};
     cout<< sizeof(mydogs);
 }
