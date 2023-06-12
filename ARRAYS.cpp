@@ -50,3 +50,14 @@ int main()
     string mydogs[5] = {"bulldog", "retriever","husky","poodle", "chihuahua"};
     cout<< sizeof(mydogs);
 }
+
+//SIZE OF ARRAY
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int myNumbers[5] = {10, 20, 30, 40, 50};
+    int getArrayLength = sizeof(myNumbers) / sizeof(int);
+    cout << getArrayLength;
+}
