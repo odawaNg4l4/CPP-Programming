@@ -72,7 +72,7 @@ int main()
     for (int i = 0; i < sizeof(myNumbers) / sizeof(int); i++){
         cout << myNumbers[i] << "\n";
     }
-}*/
+}
 
 #include<iostream>
 using  namespace std;
@@ -82,6 +82,17 @@ int main()
     for (int i : myNumbers){
         cout<<i<<"\n";
     }
-}
+}*/
 
+//MULTI-DIMENSIONAL ARRAYS
+#include<iostream>
+using namespace std;
+int main()
+{
+    string letters[2][4] = {
+  { "A", "B", "C", "D" },
+  { "E", "F", "G", "H" }
+    };
+    cout << letters[0][2];
+}
 
