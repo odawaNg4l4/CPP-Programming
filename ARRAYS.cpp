@@ -118,6 +118,6 @@ int main()
   { "E", "F", "G", "H" }
 };
 
-cout << letters[0][0];
+cout << letters[0][1];
 }
 
