@@ -1,21 +1,20 @@
-/*git #include<iostream>
+ #include<iostream>
 #include<string.h>
 using namespace std;
 int main()
 {
-    struct {
-  int myNum;
-  string myString;
-} myStructure;
+    struct{
+      float myNum;
+      string myString;
+    }myStructure;
 
-// Assign values to members of myStructure
-myStructure.myNum = 1;
-myStructure.myString = "Hello World!";
+    myStructure.myNum = 3.142;
+    myStructure.myString = "Prince Charles";
 
-// Print members of myStructure
-cout << myStructure.myNum << "\n";
-cout << myStructure.myString << "\n";
-}*/
+cout<< myStructure.myNum <<"\n";
+cout<< myStructure.myString <<"\n";
+}
+/*
 #include<iostream>
 #include<string.h>
 
@@ -38,4 +37,4 @@ myCar2.year = 1969;
 // Print the structure members
 cout << myCar1.brand << " " << myCar1.model << " " << myCar1.year << "\n";
 cout << myCar2.brand << " " << myCar2.model << " " << myCar2.year << "\n";
-}
+}*/
