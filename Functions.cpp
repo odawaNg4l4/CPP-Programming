@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 
 void myFunction();
@@ -51,7 +51,7 @@ int main() {
   myFunction("Jenny", 14);
   myFunction("Anja", 30);
   return 0;
-}*/
+}
 
 #include<iostream>
 using namespace std;
