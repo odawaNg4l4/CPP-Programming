@@ -37,7 +37,7 @@ int main() {
   myFunction();
   myFunction("USA");
   return 0;
-}*/
+}
 
 
 #include<iostream>
@@ -50,5 +50,16 @@ int main() {
   myFunction("Liam", 3);
   myFunction("Jenny", 14);
   myFunction("Anja", 30);
+  return 0;
+}*/
+
+#include<iostream>
+using namespace std;
+int myFunction(int x) {
+  return 5 + x;
+}
+
+int main() {
+  cout << myFunction(3);
   return 0;
 }
