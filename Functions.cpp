@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 
 void myFunction();
@@ -10,7 +10,7 @@ int main()
 
 void myFunction(){
     cout << "I AM A MINI ME";
-}*/
+}
 
 #include<iostream>
 using namespace std;
