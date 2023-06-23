@@ -1,4 +1,4 @@
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 
 void myFunction();
@@ -27,15 +27,15 @@ int main() {
 
 #include<iostream>
 using namespace std;
-void myFunction(string country = "Norway") {
+void theFunction(string country = "Norway") {
   cout << country << "\n";
 }
 
 int main() {
-  myFunction("Sweden");
-  myFunction("India");
-  myFunction();
-  myFunction("USA");
+  theFunction("Sweden");
+  theFunction("India");
+  theFunction();
+  theFunction("USA");
   return 0;
 }
 
@@ -75,5 +75,18 @@ int myFunction(int x, int y)
 int main()
 {
   cout << myFunction(6,2);
+  return 0;
+}*/
+
+#include<iostream>
+using namespace std;
+
+int theFunction(int x, int y) {
+  return x + y;
+}
+
+int main() {
+  int z = theFunction(5, 3);
+  cout << z;
   return 0;
 }
