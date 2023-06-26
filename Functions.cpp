@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 
 void myFunction();
@@ -89,7 +89,7 @@ int main() {
   int z = theFunction(5, 3);
   cout << z;
   return 0;
-}*/
+}
 
 //PASS BY REFERENCE
 #include<iostream>
