@@ -1,4 +1,4 @@
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 
 void myFunction();
@@ -148,7 +148,7 @@ int main() {
   cout << "Int: " << myNum1 << "\n";
   cout << "Double: " << myNum2;
   return 0;
-}
+}*/
 
 //RECURSION
 #include<iostream>
