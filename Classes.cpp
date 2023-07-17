@@ -1,4 +1,4 @@
-/*Create an object
+//Create an object
 #include<iostream>
 using namespace std;
 
@@ -45,7 +45,7 @@ int main(){
     cout << carObj1.brand << " " << carObj1.model << " " << carObj1.year<< " " << "\n";
     cout << carObj2.brand << " " << carObj2.model << " " << carObj2.year << " " << "\n";
     return 0;
-}*/
+}
 
 //CLASS METHODS
 
