@@ -18,7 +18,7 @@ class MyClass
     cout << myObj.myString;
 
     return 0;
-}*/
+}
 
 //MULTIPLE OBJECST
 #include<iostream>
@@ -45,5 +45,24 @@ int main(){
     cout << carObj1.brand << " " << carObj1.model << " " << carObj1.year<< " " << "\n";
     cout << carObj2.brand << " " << carObj2.model << " " << carObj2.year << " " << "\n";
     return 0;
-}
+}*/
+
+//CLASS METHODS
+
+#include<iostream>
+using namespace std;
+
+class MyClass{
+    public:
+        void myMethod() {
+        cout << "Hello World";
+        }
+};
+
+    int main() {
+        MyClass myObj;
+        myObj.myMethod();
+        return 0;
+    }
+
 
