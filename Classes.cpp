@@ -1,4 +1,4 @@
-/*Create an object
+//Create an object
 #include<iostream>
 using namespace std;
 
@@ -63,7 +63,7 @@ class MyClass{
         myObj.myMethod();
         return 0;
     }
-*/
+
 //CLASS METHODS:OUTSIDE
 #include<iostream>
 using namespace std;
