@@ -1,4 +1,4 @@
-//Create an object
+/*Create an object
 #include<iostream>
 using namespace std;
 
@@ -82,5 +82,25 @@ int main()
 {
     MyClass myObj;
     myObj.myMethod();
+    return 0;
+}*/
+
+//PARAMETERS
+#include<iostream>
+using namespace std;
+
+class Car
+{
+    public:
+    int speed(int maxSpeed);
+};
+
+int Car::speed(int maxSpeed){
+    return maxSpeed;
+}
+int main()
+{
+    Car myObj;
+    cout<< myObj.speed(200);
     return 0;
 }
