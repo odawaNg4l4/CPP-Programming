@@ -1,4 +1,4 @@
-/*Create an object
+//Create an object
 #include<iostream>
 using namespace std;
 
@@ -103,7 +103,7 @@ int main()
     Car myObj;
     cout<< myObj.speed(200);
     return 0;
-}*/
+}
 
 //CONSTRUCTOR
 #include<iostream>
