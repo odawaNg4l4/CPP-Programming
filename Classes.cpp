@@ -83,7 +83,7 @@ int main()
     MyClass myObj;
     myObj.myMethod();
     return 0;
-}*/
+}
 
 //PARAMETERS
 #include<iostream>
@@ -102,5 +102,21 @@ int main()
 {
     Car myObj;
     cout<< myObj.speed(200);
+    return 0;
+}*/
+
+//CONSTRUCTOR
+#include<iostream>
+using namespace std;
+
+class MyClass{
+    public:
+    MyClass(){
+        cout<<"Hello world";
+    }
+};
+
+int  main(){
+    MyClass myObj;
     return 0;
 }
