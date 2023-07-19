@@ -1,4 +1,4 @@
-/*Constructor Parameters
+//Constructor Parameters
 #include<iostream>
 using namespace std;
 
@@ -22,7 +22,7 @@ int main(){
     cout << carObj2.brand << " " << carObj2.model << " " << carObj2.year << "\n";
 
 }
-*/
+
 //ACCESS SPECIFIERS
 #include<iostream>
 using namespace std;
