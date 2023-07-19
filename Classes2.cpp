@@ -1,4 +1,4 @@
-//Constructor Parameters
+/*Constructor Parameters
 #include<iostream>
 using namespace std;
 
@@ -20,4 +20,23 @@ int main(){
 
     cout << carObj1.brand << " " << carObj1.model << " " << carObj1.year << "\n";
     cout << carObj2.brand << " " << carObj2.model << " " << carObj2.year << "\n";
+
+}
+*/
+//ACCESS SPECIFIERS
+#include<iostream>
+using namespace std;
+
+class MyClass{
+    public:
+        int x;
+    private:
+        int y;
+};
+
+int main(){
+    MyClass myObj;
+    myObj.x = 25;
+    myObj.y = 50;
+    return 0;
 }
