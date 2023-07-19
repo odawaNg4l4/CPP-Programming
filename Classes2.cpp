@@ -1,4 +1,4 @@
-/*Constructor Parameters
+//Constructor Parameters
 #include<iostream>
 using namespace std;
 
@@ -60,7 +60,7 @@ using namespace std;
     myObj.setSalary(50000);
     cout << myObj.getSalary();
     return 0;
- }*/
+ }
 
  //INHERITANCE
  #include<iostream>
