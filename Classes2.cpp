@@ -1,4 +1,4 @@
-//Constructor Parameters
+/*Constructor Parameters
 #include<iostream>
 using namespace std;
 
@@ -38,5 +38,51 @@ int main(){
     MyClass myObj;
     myObj.x = 25;
     myObj.y = 50;
+    return 0;
+}
+
+//ENCAPSULATION
+#include<iostream>
+using namespace std;
+ class Employee{
+    private:
+    int salary;
+    public:
+    void setSalary(int s){
+        salary = s;
+    }
+    int getSalary(){
+        return salary;
+    }
+ };
+ int main(){
+    Employee myObj;
+    myObj.setSalary(50000);
+    cout << myObj.getSalary();
+    return 0;
+ }*/
+
+ //INHERITANCE
+ #include<iostream>
+ using namespace std;
+
+class Vehicle{
+    public:
+        string brand = "FORD";
+        void honk(){
+            cout << "Tuut, tuut \n";
+        }
+};
+
+class Car: public Vehicle{
+    public:
+        string model = "Mustang";
+
+};
+
+int main(){
+    Car myCar;
+    myCar.honk();
+    cout << myCar.brand + " " + myCar.model;
     return 0;
 }
