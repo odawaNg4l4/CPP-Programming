@@ -1,4 +1,4 @@
-/*Constructor Parameters
+//Constructor Parameters
 #include<iostream>
 using namespace std;
 
@@ -105,7 +105,7 @@ int main() {
   MyGrandChild myObj;
   myObj.myFunction();
   return 0;
-}*/
+}
 
 //MULTIPLE INHERITANCE
 #include<iostream>
