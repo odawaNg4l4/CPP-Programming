@@ -1,4 +1,4 @@
-/*Constructor Parameters
+//Constructor Parameters
 #include<iostream>
 using namespace std;
 
@@ -135,7 +135,7 @@ int main() {
   myObj.myOtherFunction();
   return 0;
 }
-*/
+
 //ACCESS SPECIFIER
 class Employee {
   protected: // Protected access specifier
