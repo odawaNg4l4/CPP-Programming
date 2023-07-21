@@ -1,4 +1,4 @@
-/*Constructor Parameters
+//Constructor Parameters
 #include<iostream>
 using namespace std;
 
@@ -185,7 +185,7 @@ class Dog : public Animal {
       cout << "The dog says: bow wow \n";
     }
 };
-*/
+
 
 #include <iostream>
 #include <fstream>
